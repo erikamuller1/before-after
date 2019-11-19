@@ -1,14 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<div class="img-comp-container">
-  <div class="img-comp-img">
-    <img src="Brown-then.jpg" width="300" height="200">
-  </div>
-  <div class="img-comp-img img-comp-overlay">
-    <img src="Brown-now.jpg" width="300" height="200">
-  </div>
+<div class="container">
+ <div class="inner">
+
+	 <h1>Image Comparison Slider</h1>
+
+	 <h3>A cool way to show diferences between two image, using CSS3 and jQuery.</h3>
+
+	 <!-- COMPARISON SLIDER CODE START -->
+
+	 <div class="comparison-slider-wrapper">
+		<!-- Comparison Slider - this div contain the slider with the individual images captions -->
+	 	<div class="comparison-slider">
+			<div class="overlay">And I am the <strong>after</strong> image.</div>
+		 <img src="Brown-then.jpg" alt="Brown 2">
+		 <!-- Div containing the image layed out on top from the left -->
+		 <div class="resize">
+			 <div class="overlay">I am the <strong>before</strong> image.</div>
+			<img src="Brown-now.jpg" alt="Brown 1">
+		 </div>
+		 <!-- Divider where user will interact with the slider -->
+		 <div class="divider"></div>
+		</div>
+ </div>
 </div>
-</html>
