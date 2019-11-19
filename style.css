@@ -3,7 +3,27 @@ body{
   padding: 0;
 }
 
-img{
+.first img{
+  width: 400px;
+  height: 340px;
+}
+
+.second img{
+  width: 400px;
+  height: 100px;
+}
+
+.third img{
+  width: 400px;
+  height: 340px;
+}
+
+.fourth img{
+  width: 400px;
+  height: 340px;
+}
+
+.fifth img{
   width: 400px;
   height: 340px;
 }
