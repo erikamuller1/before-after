@@ -1,24 +1,63 @@
-<div class="container">
- <div class="inner">
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="twentytwenty.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jquery.event.move.js"></script>
+    <script src="jquery.twentytwenty.js"></script>
 
-	 <h1>Image Comparison Slider</h1>
+    <script type="text/javascript">
+      $(function(){
+        $(".first[data-orientation!='vertical']") .twentytwenty({default_offset_pct:0.5});
+      })
+    </script>
 
-	 <h3>A cool way to show diferences between two image, using CSS3 and jQuery.</h3>
+    <script type="text/javascript">
+      $(function(){
+        $(".second[data-orientation!='vertical']") .twentytwenty({default_offset_pct:0.5});
+      })
+    </script>
 
-	 <!-- COMPARISON SLIDER CODE START -->
+    <script type="text/javascript">
+      $(function(){
+        $(".third[data-orientation!='vertical']") .twentytwenty({default_offset_pct:0.5});
+      })
+    </script>
 
-	 <div class="comparison-slider-wrapper">
-		<!-- Comparison Slider - this div contain the slider with the individual images captions -->
-	 	<div class="comparison-slider">
-			<div class="overlay">And I am the <strong>after</strong> image.</div>
-		 <img src="Brown-then.jpg" alt="Brown 2">
-		 <!-- Div containing the image layed out on top from the left -->
-		 <div class="resize">
-			 <div class="overlay">I am the <strong>before</strong> image.</div>
-			<img src="Brown-now.jpg" alt="Brown 1">
-		 </div>
-		 <!-- Divider where user will interact with the slider -->
-		 <div class="divider"></div>
-		</div>
+    <script type="text/javascript">
+      $(function(){
+        $(".fourth[data-orientation!='vertical']") .twentytwenty({default_offset_pct:0.5});
+      })
+    </script>
+
+    <script type="text/javascript">
+      $(function(){
+        $(".fifth[data-orientation!='vertical']") .twentytwenty({default_offset_pct:0.5});
+      })
+    </script>
+
+  </head>
+ <body>
+   <div class="first">
+     <img src="Brown-then.jpg">
+     <img src="Brown-now.jpg">
+   </div>
+   <div class="second">
+     <img src="Boyce-then.jpg">
+     <img src="Boyce-now.jpg">
+  </div>
+  <div class="third">
+    <img src="Zendaya-then.jpg">
+    <img src="Zendaya-now.jpg">
  </div>
+ <div class="fourth">
+   <img src="Jonas-then.jpg">
+   <img src="Jonas-now.jpg">
 </div>
+<div class="fifth">
+  <img src="tisdale-then.jpg">
+  <img src="Tisdale-now.jpg">
+</div>
+  </body>
+</html>
