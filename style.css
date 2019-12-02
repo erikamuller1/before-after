@@ -1,13 +1,36 @@
 body{
-  margin:0;
   padding: 0;
+  margin top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
+
+h1{
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Alatsi', sans-serif;
+}
+
+figcaption{
+  font-size: 12px;
+  color: grey;
+}
+
 
 .first img{
   width: 400px;
   height: 340px;
+  float: center;
 }
 
+.first{
+  text-align: center;
+}
 .second img{
   width: 400px;
   height: 340px;
@@ -20,7 +43,7 @@ body{
 
 .fourth img{
   width: 400px;
-  height: 340px;
+  height: 310px;
 }
 
 .fifth img{
