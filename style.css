@@ -8,27 +8,18 @@ body{
 }
 
 h1{
-  font-family: 'Alatsi', sans-serif;
+  font-family: 'Baskervville', serif;
+  font-weight: lighter;
   text-align: center;
   letter-spacing: 1px;
   font-style: normal;
   font-size: 36px;
 }
 
-#byline {
-  font-style: italic;
-  color: grey;
-  font-size: 10px;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.credit{
-  font-size: 12px;
-  text-align: right;
-}
-h3{
-  font-family: 'Alatsi', sans-serif;
+h2{
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 h4{
@@ -36,14 +27,22 @@ font-weight: bold;
 color: purple;
 }
 
-figcaption{
-  font-size: 12px;
+#byline {
+  font-style: italic;
   color: grey;
+  font-size: 10px;
+  text-align: left;
+}
+
+.credit{
+  font-size: 12px;
+  text-align: right;
 }
 
 script{
   margin: auto;
 }
+
 .first img{
   width: 290px;
   height: 400px;
@@ -67,4 +66,11 @@ script{
 .fifth img{
   width: 310px;
   height: 400px;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 75%;
 }
