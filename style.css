@@ -24,9 +24,14 @@ h2{
 
 h4{
 font-weight: bold;
-color: purple;
+text-decoration-style: solid;
+text-decoration-line: underline;
 }
 
+figcaption{
+  font-size: 8px;
+  color: grey;
+}
 #byline {
   font-style: italic;
   color: grey;
