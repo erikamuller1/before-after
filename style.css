@@ -1,20 +1,39 @@
 body{
-  margin: 0 auto;
-  width: 900px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 550px;
   font-family: 'Source Serif Pro', serif;
 }
 
 h1{
   font-family: 'Alatsi', sans-serif;
   text-align: center;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-size: 36px;
 }
 
+#byline {
+  font-style: italic;
+  color: grey;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.credit{
+  font-size: 12px;
+  text-align: right;
+}
 h3{
   font-family: 'Alatsi', sans-serif;
 }
 
 h4{
-
+font-weight: bold;
+color: purple;
 }
 
 figcaption{
